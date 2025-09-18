@@ -1,0 +1,3 @@
+{
+    CurrentCar = 0
+}

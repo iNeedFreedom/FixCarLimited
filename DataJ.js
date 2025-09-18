@@ -1,3 +1,3 @@
 {
-    CurrentCar = 0
+    CurrentCar : 0
 }

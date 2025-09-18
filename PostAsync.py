@@ -4,7 +4,7 @@ app.post("/roblox", async (req, res) => {
   const { left } = req.body;
 
   // Example: update file in GitHub repo
-  const response = await fetch("https://api.github.com/repos/YOURUSER/YOURREPO/contents/data.json", {
+  const response = await fetch("https://github.com/repos/YOURUSER/YOURREPO/contents/data.json", {
     method: "PUT",
     headers: {
       "Authorization": "token YOUR_GITHUB_PAT",

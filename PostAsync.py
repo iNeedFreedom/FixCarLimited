@@ -13,7 +13,7 @@ FILE_PATH = "Data.js"
 
 # Get file info from GitHub (sha required for updates)
 def get_file_info():
-    url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{FILE_PATH}"
+    url = f"https://api.github.com/repos/{OWNER}/{REPO}/{FILE_PATH}"
     headers = {
         "Authorization": f"token {GITHUB_TOKEN}",
         "User-Agent": "Python-App"
